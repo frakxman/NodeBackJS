@@ -1,0 +1,22 @@
+{
+    "name": "nodebackjs",
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.js"
+      }
+    ],
+    "env": {
+      "DB_USER": "@nodebackjs-db-user",
+      "DB_PASSWORD": "@nodebackjs-db-password",
+      "DB_HOST": "@nodebackjs-db-host",
+      "DB_NAME": "@nodebackjs-db-name"
+    }
+  }
