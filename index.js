@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 
+// Config 
 const { config } =  require('./config/index');
 
+// Routes import
 const authApi = require('./routes/auth');
 const moviesApi = require('./routes/movies');
 const userMoviesApi = require('./routes/userMovies');

@@ -18,19 +18,19 @@ function authApi( app ) {
 
     const apiKeysService = new ApiKeysService();
 
-    router.post('/sign-in', async ( req, res, next ) => {
+    router.post('/sign-in', async function( req, res, next ) {
         const { apiKeyToken } = req.body;
 
         if ( !apiKeyToken ) {
             next( boom.unauthorized('apiKeyToken is required'));
         };
 
-        passport.authenticate('basic', ( err, user ) => {
+        passport.authenticate('basic', function( err, user ) {
             try {
                 if ( err || !user ) {
                     next( boom.unauthorized());
                 };
-                req.login( user, { sesion: false }, async ( err ) => {
+                req.login( user, { session: false }, async function( err ) {
                     if ( err ) {
                         next( err );
                     };
@@ -48,11 +48,11 @@ function authApi( app ) {
                         scopes: apiKey.scopes
                     };
 
-                    const token = jwt.sign( payload, config.authJtwSecret, {
+                    const token = jwt.sign( payload, config.authJwtSecret, {
                         expiresIn: '15m'
                     });
 
-                    return res.status( 200 ).json({ token, user: { id, name, email }})
+                    return res.status( 200 ).json({ token, user: { id, name, email }});
                 });
             } catch ( err ) {
                 next( err );
