@@ -24,6 +24,11 @@ class UserService {
 
         return createUserId;
     };
+
+    async verifyUserExists({ email }) {
+        const [ user ] = await this.mongoDB.getAll( this.collection, { email });
+        return user;
+    };
 };
 
 module.exports = UserService;
