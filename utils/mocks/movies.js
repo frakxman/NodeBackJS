@@ -4,6 +4,7 @@ const moviesMock = [
         title: 'Notti bianche, Le (White Nights)',
         year: 2019,
         cover: 'http://dummyimage.com/800x600.png/ff4444/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
         duration: 66,
@@ -24,6 +25,7 @@ const moviesMock = [
         title: "King Solomon's Mines",
         year: 2019,
         cover: 'http://dummyimage.com/800x600.png/dddddd/000000',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
         duration: 77,
@@ -46,6 +48,7 @@ const moviesMock = [
         title: 'Inhuman Resources (Redd Inc.)',
         year: 2018,
         cover: 'http://dummyimage.com/800x600.png/ff4444/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
         duration: 142,
@@ -58,6 +61,7 @@ const moviesMock = [
         title: 'Fortress',
         year: 2019,
         cover: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
         duration: 172,
@@ -70,6 +74,7 @@ const moviesMock = [
         title: 'Transylmania',
         year: 2018,
         cover: 'http://dummyimage.com/800x600.png/ff4444/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
         duration: 155,
@@ -88,6 +93,7 @@ const moviesMock = [
         title: "Big Girls Don't Cry... They Get Even (Stepkids)",
         year: 2018,
         cover: 'http://dummyimage.com/800x600.png/ff4444/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.',
         duration: 173,
@@ -100,6 +106,7 @@ const moviesMock = [
         title: 'Amreeka',
         year: 2018,
         cover: 'http://dummyimage.com/800x600.png/ff4444/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
         duration: 115,
@@ -112,6 +119,7 @@ const moviesMock = [
         title: 'Hollow Man',
         year: 2018,
         cover: 'http://dummyimage.com/800x600.png/ff4444/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
         duration: 158,
@@ -124,6 +132,7 @@ const moviesMock = [
         title: 'Hard Target',
         year: 2018,
         cover: 'http://dummyimage.com/800x600.png/dddddd/000000',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
         duration: 173,
@@ -143,6 +152,7 @@ const moviesMock = [
         title: 'Siete minutos (Seven Minutes)',
         year: 2019,
         cover: 'http://dummyimage.com/800x600.png/5fa2dd/ffffff',
+        cover2: 'http://dummyimage.com/800x600.png/cc0000/ffffff',
         description:
             'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.',
         duration: 62,
